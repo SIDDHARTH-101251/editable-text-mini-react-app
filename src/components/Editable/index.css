@@ -1,0 +1,84 @@
+.app-container {
+  margin: 0;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5d0fe;
+  padding: 30px;
+}
+
+.editable-card {
+  height: 250px;
+  width: 100%;
+  border: 0 solid;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .editable-card {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .editable-card {
+    width: 50%;
+  }
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.input-element {
+  width: 80%;
+  height: 38px;
+  border: 1px solid #cbd2d9;
+  border-radius: 3px;
+  padding: 5px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #323f4b;
+  outline: none;
+}
+
+.button-style {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #d946ef;
+  border: 0 solid;
+  border-radius: 3px;
+  width: 80px;
+  height: 38px;
+}
+
+.para-style {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #323f4b;
+  width: 80%;
+  padding: 5px;
+  height: 38px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
